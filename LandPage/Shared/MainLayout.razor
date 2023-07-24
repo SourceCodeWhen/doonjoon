@@ -1,0 +1,16 @@
+﻿@inherits LayoutComponentBase
+
+<MudThemeProvider IsDarkMode="true"/>
+<MudDialogProvider/>
+<MudSnackbarProvider/>
+
+<MudLayout>
+    <MudAppBar Elevation="1">
+        <MudIcon Color="Color.Tertiary" Icon="@Icons.Material.Filled.Castle"></MudIcon>
+        <MudText Color="Color.Tertiary" Typo="Typo.h5" Class="mx-3">DOONJOON</MudText>
+        <MudIcon Color="Color.Tertiary" Icon="@Icons.Material.Filled.Castle"></MudIcon>
+    </MudAppBar>
+    <MudMainContent>
+        @Body
+    </MudMainContent>
+</MudLayout>
